@@ -1,38 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;700&family=Roboto&display=swap');
+
+* {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
 .App {
+  margin-top: 2.5rem;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index button {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
+
+.index input {
+  height: 24px;
+  width: 24px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+Table {
+  margin-top: 1.25rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+Button {
+  margin: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#form {
+  background-color: #7FFFD4;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#delete{
+  background-color: red;
 }

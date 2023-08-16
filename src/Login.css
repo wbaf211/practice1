@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+* {
+    font-size: 20px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.form-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-image: linear-gradient(#662D8C, #ED1E79);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: #fcd12a;
+    cursor: pointer;
+}
+
+form {
+    background-color: black;
+    height: 90%;
+    width: 30rem;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper {
+    padding: 20px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 5%;
+}
+
+.user-input__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input__container input {
+    height: 50px;
+    width: 22.5rem;
+    padding-left: 20px;
+    margin: 5% 5px;
+    border-radius: 50px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.signUp {
+    margin: 20px 10%; 
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-container button {
+    height: 45px;
+    width: 12.5rem;
+    border-radius: 50px;
+    background-color: #4d62f0;
+    color: yellow;
+    border: none;
+}
+
+.btn-container button:hover {
+    cursor: pointer;
+    border: 1px solid #4d62f0;
+    background-color: black;
+    opacity: 1;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.underscore {
+    text-decoration: underline;
+}
+
+.yellow {
+    color: #fcd12a;
+}
+
+.fg-pw {
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 80%;
+    }
+
+    .user-input__container input{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    * {
+        font-size: 10px;
+    }
+    .user-input__container input {
+        height: 25px;
+    }
+    .btn-container button{
+        height: 30px;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,178 @@
+* {
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.875rem;
+    width: 100%;
+    border-bottom: 2px solid blue;
+}
+
+nav span {
+    cursor: pointer;
+}
+
+.Upper Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7.5rem;
+    height: 2.1875rem;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Upper span {
+    font-weight: 500;
+}
+
+.Upper span, .Upper Button {
+    margin: 1.25rem 16px;
+}
+
+.Upper .icon {
+    margin: 5px;
+    padding: 0;
+}
+
+.Lower Input{
+    width: 15.625rem;
+}
+
+.Select {
+    width: 14.375rem;
+}
+
+.Lower {
+    padding-left: 1.25rem;
+    display: flex;
+}
+
+.Lower Input, .Select {
+    margin: 1rem 0.625rem;
+}
+
+.Lower button {
+    margin: 1rem 0.625rem;
+    height: 1.875rem;
+    width: 8rem;
+    position: relative;
+    top: -2px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.Lower .icon {
+    margin: 0 5px;
+}
+
+#search {
+    background-color: #228B22;
+}
+
+#ex {
+    background-color: #FFB301;
+}
+
+.index-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-pagination input{
+    padding:0 7px;
+    width: 30px;
+}
+
+@media screen and (max-width: 1360px) {
+    th.ant-table-cell {
+        font-size: 15px;
+    }
+
+    .Lower {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Lower Input, .Lower .Select {
+        width: 50%;
+    } 
+
+    .button-container button {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Upper {
+        width: 100%;
+    }
+
+    .Lower {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Lower Input, .Lower .Select {
+        width: 80%;
+    } 
+
+    .button-container button {
+        width: 30%;
+    }
+
+    th.ant-table-cell {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .Lower {
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        top: 100px;
+    }
+
+    .ant-table-wrapper.css-dev-only-do-not-override-1jr9qlj {
+        position: absolute;
+        top: 400px;
+    }
+    
+    .index-pagination {
+        position: absolute;
+        top: 385px;
+        left: 11.5rem;
+    }
+
+    td.ant-table-cell {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .button-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-container button {
+        width: 40%;
+    }
+}
+

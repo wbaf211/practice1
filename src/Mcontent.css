@@ -1,0 +1,96 @@
+* {
+    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.yellow {
+    color: yellow;
+    font-weight: 700;
+}
+
+.mcontent {
+    margin: 2.1875rem;
+}
+
+.underline {
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info button {
+    position: relative;
+    top: 0.3125rem;
+    height: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+    background-color: #f5f5f5;
+}
+
+.info button:active {
+    background-color: white;
+}
+
+
+.product-info__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: 35px;
+}
+
+.select {
+    width: 200px;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.icon {
+    margin: 0 15px;
+}
+
+.name {
+    margin: 15px;
+}
+
+.input__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 400px;
+}
+
+.user__container {
+    margin: 40px 0;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space {
+    margin: 10px 0 ;
+}
+
+@media screen and (max-width: 800px) {
+    .product-info__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
